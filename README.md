@@ -95,11 +95,10 @@ From my "windows-vm" - It is configured correctly Address is ***10.0.0.7***
 Make sure it is in the correct Resource Group and Region
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/f124c40c-8bae-4c55-8a9d-267097d5686d)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/92c19af6-ed45-4f36-a950-0122f8567752)
-![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/086b37e9-9de0-4fe5-a573-99800cdbf870)
 
 Viewing the Topology:
 
-
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/086b37e9-9de0-4fe5-a573-99800cdbf870)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/8e523a71-8c07-4693-8ba4-5ee740e76e76)
 
 ***This confirms that we have connected our NSG to our Subnet***

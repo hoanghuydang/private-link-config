@@ -20,11 +20,8 @@ We will enable Private Endpoint for our storage account and our Virtual Network 
 + Observe Network Watcher Topology for the region and resource group all of your stuff is in.
 + Observe the Key Vault and Storage Account Private Endpoints are there
 + Login to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances.
-They should be private addresses, indicating the resources have been probably integrated into private VNet:
++ They should be private addresses, indicating the resources have been probably integrated into private VNet:
 
-Possible causes for this are your resources and VM are actually in different Virtual Networks, or something is just not setup right
-
-The good news is, you don’t need to fix this for the rest of the lab, we are just trying to lock down the environment. However, if you want to fix it, you can try deleting the Private Endpoints/config and trying again
 
 ***Step 1: Disable Public Access In Key Vaults & Allow trusted MS services to bypass this firewall***
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/55f37d2a-272f-42e4-b47d-b496cddc9c9b)

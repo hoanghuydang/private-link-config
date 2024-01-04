@@ -65,17 +65,48 @@ It encompasses the arrangement of servers, computers, and other components, alon
 A well-designed network topology is crucial for security, as it can impact the ease or difficulty with which unauthorized access or attacks can occur. 
 Secure network topology involves the strategic placement of security measures, such as firewalls and intrusion detection systems, to safeguard against potential threats and ensure the integrity of data transmissions.
 
-***Step 6: to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances***
+***Step 6: Go to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances***
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d0a7626f-225e-4db5-b871-5eefc54f7bdf)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d267645f-86ad-4c02-a889-40a04df3b6b8)
+
+From my "windows-vm" - because it is in the Vnet
+
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/fa89b761-517f-437d-bcc7-abd4f29e6b8b)
 
+From my home MAC computer - Public IP Address
+
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/886c0a5a-5229-4e1c-9f3f-b7734d40b771)
+
+This confirms the key vault is set up with Private Endpoint correctly.
+
+***Step 7: Check Storage Account***
+
+Copy the Blob Service
+
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/852d4ff8-a9a5-4811-9163-5440a643545b)
+
+From my MAC:
+
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/33e9aaf1-2704-4e04-a781-9e5340e9e363)
+
+From my "windows-vm" - It is configured correctly Address is ***10.0.0.7***
+
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/77ca7bf6-7807-4edc-9b31-1cb2b3e373d1)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/6646369a-3491-4636-9622-9c266a85ea83)
+
+***Step 8: Create a Network Security Group and attach it to our Subnet***
+Make sure it is in the correct Resource Group and Region
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/f124c40c-8bae-4c55-8a9d-267097d5686d)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/92c19af6-ed45-4f36-a950-0122f8567752)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/086b37e9-9de0-4fe5-a573-99800cdbf870)
+
+Viewing the Topology:
 
 
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/8e523a71-8c07-4693-8ba4-5ee740e76e76)
 
+***This confirms that we have connected our NSG to our Subnet***
 
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d9cff5ea-26bd-4ab7-a74d-25a7326b681e)
 
-
-
-
-
+***Lab Fin.***

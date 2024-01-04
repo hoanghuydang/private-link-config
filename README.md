@@ -40,17 +40,30 @@ The good news is, you don’t need to fix this for the rest of the lab, we are j
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d0ad36c5-2692-4a67-b076-db1adf679267)
 
 
-***Step 3a: Configure Storage Account: Disable Blob***
+***Step 3: Disable Blob***
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/541f2a40-cc37-4b36-a94b-9fa79651ca46)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/827b5fe6-1c26-44f0-8bda-accb21b461fe)
 
-***Step 3b: Configure Storage Account***
+***Step 4: Configure Storage Account***
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/97e630ff-740a-4f9d-971b-7ac8c51b69d3)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/0481a0b0-3ddb-458d-b857-a4a96354c8e4)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/4ddea5ec-8559-4656-bffc-cea4a0b7a51c)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/5771760e-4264-4f2e-bfed-77acae961f0f)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/b9d1b946-a896-43bf-ac70-7a9169e07c3d)
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/4bd956a1-2f27-46d5-84e1-d459a6646a6b)
+
+***Step 5: Observe Network Topology for the region and resource group all our entities are in***
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/2c95b046-9fb4-49bc-98f3-4884a8c98c80)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/18a1b77e-3ead-4b93-823d-f9a0f14e873c)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/c38c5974-9cf8-4298-acb3-e68248afd4e4)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/897c9cc1-329d-4937-a05d-75744223806c)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/31f16816-acf0-4a55-973e-facc3dd72658)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/b34a948b-b188-4c22-9801-86ec176514ba)
+
+
+
+
+
 
 
 

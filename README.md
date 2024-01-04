@@ -19,8 +19,7 @@ We will enable Private Endpoint for our storage account and our Virtual Network 
 + This is done on the network tab as well as the Settings -> configuration “Allow Blob public access → Disabled” as well
 + Observe Network Watcher Topology for the region and resource group all of your stuff is in.
 + Observe the Key Vault and Storage Account Private Endpoints are there
-
-Login to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances.
++ Login to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances.
 They should be private addresses, indicating the resources have been probably integrated into private VNet:
 
 Possible causes for this are your resources and VM are actually in different Virtual Networks, or something is just not setup right
@@ -61,7 +60,15 @@ The good news is, you don’t need to fix this for the rest of the lab, we are j
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/b34a948b-b188-4c22-9801-86ec176514ba)
 
 
+Network topology refers to the structured layout of interconnected devices within a computer network. 
+It encompasses the arrangement of servers, computers, and other components, along with the paths through which data flows. 
+A well-designed network topology is crucial for security, as it can impact the ease or difficulty with which unauthorized access or attacks can occur. 
+Secure network topology involves the strategic placement of security measures, such as firewalls and intrusion detection systems, to safeguard against potential threats and ensure the integrity of data transmissions.
 
+***Step 6: to “windows-vm” and check the IP addresses of your Key Vault and Storage Account instances***
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d0a7626f-225e-4db5-b871-5eefc54f7bdf)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d267645f-86ad-4c02-a889-40a04df3b6b8)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/fa89b761-517f-437d-bcc7-abd4f29e6b8b)
 
 
 

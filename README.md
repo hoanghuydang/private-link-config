@@ -32,5 +32,18 @@ Possible causes for this are your resources and VM are actually in different Vir
 
 The good news is, you don’t need to fix this for the rest of the lab, we are just trying to lock down the environment. However, if you want to fix it, you can try deleting the Private Endpoints/config and trying again
 
-***Step 1:*** Disable Public Access In Key Vaults
+***Step 1: Disable Public Access In Key Vaults & Allow trusted MS services to bypass this firewall***
 ![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/55f37d2a-272f-42e4-b47d-b496cddc9c9b)
+
+
+***Step 2: Configure Private Endpoint***
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/1e9c687b-021e-44e6-ab8b-4e9ac9221ee3)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/4d83b351-0c24-481e-8675-05c888fec9c3)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/a776d5fc-21d7-4d8e-9e1a-8214dc0a8cad)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/23fe9ea4-69bd-4023-8509-51b5a771a3ac)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/1b1dc935-8825-4880-96df-97954664a1a6)
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/d0ad36c5-2692-4a67-b076-db1adf679267)
+
+
+***Step 3:*** Configure Storage Account
+Home>

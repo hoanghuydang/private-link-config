@@ -1,5 +1,7 @@
 # private-link-config
 
+![image](https://github.com/hoanghuydang/private-link-config/assets/127445164/25b409b0-e217-463f-a614-a1994ae52b76)
+
 ***LAB Precursor:***
 
 It is important to highlight that during the initial deployment, all resources were exposed directly to the internet. 

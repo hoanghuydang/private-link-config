@@ -4,7 +4,6 @@
 
 It is important to highlight that during the initial deployment, all resources were exposed directly to the internet. 
 Specifically, the Virtual Machines had their Network Security Groups and built-in firewalls configured in an open manner, allowing broad access. 
-Additionally, other deployed resources were equipped with public endpoints that were visible to the internet, thereby eliminating the necessity for private endpoints in this setup.
 
 In this lab, we will apply a Network Security Group to our subnet. 
 We will enable Private Endpoint for our storage account and our Virtual Network as well, which takes them off the public internet and only makes them accessible within our Subnet and Virtual Networks.
